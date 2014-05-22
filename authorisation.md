@@ -41,3 +41,12 @@ Content protection rules can be used to set the authorisation check for playback
   rights for other EGA’s are ignored, since users and groups are unique to each EGA. A user
   or group from a different EGA can never own or have rights to a media file.
 
+Adding more rules to one object allowes more users to view the object. An object with rules: acl_realm=surfnet.nl and alc_domain=xs4all.nl will allow surfnet and xs4all.nl.
+
+
+### Sitebuilder implementation
+
+The sitebuilder implementation uses currently acl_domain and acl_realm. 
+
+The domain of the user is determined from resolving the hostname from the ip address of the visitor. 
+
