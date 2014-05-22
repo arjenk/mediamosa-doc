@@ -15,19 +15,24 @@ rules as defined.
 
 Content protection rules can be used to set the authorisation check for playback to:
 * Domain
+
   An Internet domain name, such as: only give access to surfnet.nl. All subdomains (such as
   flex.surfnet.nl) would also have access.
 * Realm
+
   Such as jan@xs4all.nl, or @surfnet.nl. In the first case, the realm must be an exact match
   for the party requesting the media file. The second case is more flexible: it gives access to
   all users that match *@surfnet.nl, as well as any subdomains (such as piet@surfnet.nl,
   jan@flex.surfnet.nl, joris@flex1.z33.surfnet.nl).
 * Users 
+
   These are MediaMosa users. The user_id field is checked when playback is requested.
 * Groups
+
   These are groups of MediaMosa users. The group_id field is checked when playback is
   requested.
 * EGA’s
+
   This is a special variation on play rights. It is possible to assign play rights for the media file
   to other EGA’s that are linked to MediaMosa. To make this possible, the other EGA has to
   know the application ID. The media file will then be available to the public in that EGA,
