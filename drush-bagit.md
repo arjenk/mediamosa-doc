@@ -8,17 +8,17 @@ Drush is a shell command line interface to a Drupal application. Since
 MediaMosa is based on Drupal, you can use any drush command on
 MediaMosa. Examples of such generic commands are;
 
-* drush cache-clear all
+* ```drush cache-clear all```
   Cleares all caching tables;
-* drush wd-show --tail
+* ```drush wd-show --tail```
   Shows the message log on the commandline
 
 MediaMosa also has some specific drush commands supported for basic
 operations. For example;
 
-* drush mm-asset-list
+* ```drush mm-asset-list```
   Gives a list of assets
-* drush mm-transcode <mediafile_id> <profile_id>
+* ```drush mm-transcode <mediafile_id> <profile_id>```
   Starts a transcode job with profile id for a mediafile.
 
 A full list of MediaMosa commands can be found when running drush without parameters.
