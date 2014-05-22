@@ -143,7 +143,7 @@ extra options in bag-info.txt
 export example of an existing asset : vXgbQdVFmEFAirJoq7WrTdNv
 
 ```
-drush --uri=http://drupal-mediamosa.smk.dk/ --root=/var/www/mediamosa mm-export-bagit vXgbQdVFmEFAirJoq7WrTdNv /tmp
+drush --uri=http://myurl --root=/var/www/mediamosa mm-export-bagit vXgbQdVFmEFAirJoq7WrTdNv /tmp
 ```
 
 This creates a directory in /tmp:
