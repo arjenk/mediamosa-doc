@@ -1,6 +1,8 @@
-mediamosa-doc
-=============
-
 MediaMosa Documentation
+=====================
 
-[link to drush bagit documentation](drush-bagit.md)
+@todo: collect all available docs here.
+
+[Drush support in MediaMosa] (mediamosa-drush.md)
+  [Drush bagit documentation](drush-bagit.md)
+  
